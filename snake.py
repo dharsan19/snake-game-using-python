@@ -1,6 +1,7 @@
 from turtle import Turtle
 
 STARTING_POSITIONS = [(0,0), (-20,0), (-40,0)]
+MOVE_POSITION = 20
 UP = 90
 DOWN = 270
 LEFT = 180
@@ -27,7 +28,7 @@ class Snake:
             y_cor = self.segments[seg-1].ycor()
             self.segments[seg].goto(x_cor,y_cor)
 
-        self.segments[0].forward(20)
+        self.segments[0].forward(MOVE_POSITION)
 
     def up(self):
         if self.head.heading() != DOWN:
