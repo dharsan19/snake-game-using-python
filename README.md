@@ -38,7 +38,7 @@ This project is not just a game – it’s also a **Python practice project**:
 1. Clone the repo:  
    ```bash
    git clone https://github.com/dharsan19/snake-game-using-python.git
-   cd snake-game-turtle-python
+   cd snake-game-using-python
    ```
 2.	Run the game:
     ```bash
